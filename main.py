@@ -26,8 +26,8 @@ if now.hour==7:
         client = Client(account_sid, auth_token)
         message = client.messages.create(
         body="Bring an Umbrella with you , it's raining outside",
-        from_="+1 608 975 3769",
-        to="+201203846717"
+        from_="",#put twilio number here
+        to=""#put your number here
         )
 
 
